@@ -1,10 +1,16 @@
 title: Foorier
-email: contact@foorier.fr
 description: "L'intelligence au cœur du bâtiment"
-author: Foorier
 baseurl: "/foorier.website.github.io"
 url: "https://philippekalousdian.github.io"
-
-# Locale pour le français
 locale: "fr-FR"
 lang: "fr"
+
+# Theme settings
+remote_theme: raviriley/agency-jekyll-theme
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

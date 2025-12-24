@@ -1,15 +1,3 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "fr-FR"  # pour le français
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
-
-# -----------------
-# Texte du site en français
-# -----------------
 header:
   title: L'intelligence au cœur du bâtiment
   text: Pilotage énergétique intelligent des bâtiments tertiaires
@@ -18,14 +6,14 @@ header:
 
 services:
   title: "Notre offre de valeur"
-  text: "Des solutions innovantes et économiques"
+  text: ""
   section: services
   list:
     - title: "Coût optimisé"
       desc: "Coût d'investissement 3 à 5 fois moindre que les offres de GTB classiques"
-      icon: fas fa-euro-sign #find more at https://fontawesome.com/icons
+      icon: fas fa-euro-sign
     - title: "Économies d'énergie"
-      desc: "15 à 30% d'économies d'énergie garanties"
+      desc: "15 à 30% d'économies d'énergie"
       icon: fas fa-bolt
     - title: "Conformité BACS"
       desc: "Mise en conformité BACS et contribution au Décret Tertiaire"
@@ -33,51 +21,75 @@ services:
 
 portfolio:
   title: "Nos domaines d'intervention"
-  text: "Expertise complète en performance énergétique"
+  text: ""
   section: portfolio
   closebutton: "Fermer"
 
 timeline:
   title: "Notre mission"
-  text: "Transformer les contraintes en opportunités"
+  text: "Transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)"
   section: timeline
-  # left is the default
-  #start_align: "left"
   events:
     - title: "Diagnostics de performance"
-      year: "Intervention 1"
-      desc: "Analyse approfondie de vos installations pour identifier les opportunités d'optimisation"
+      year: ""
+      desc: "Analyse approfondie de vos installations pour identifier les opportunités d'optimisation énergétique"
       image: assets/img/timeline/1.jpg
-      alt:
-    - title: "Conception et construction"
-      year: "Intervention 2"
-      desc: "Conception, construction et gestion d'installations ouvertes et innovantes"
+      alt: Diagnostic
+    - title: "Conception, construction et gestion"
+      year: ""
+      desc: "Conception, construction et gestion d'installations ouvertes et innovantes conformes aux dernières normes"
       image: assets/img/timeline/2.jpg
-      alt:
+      alt: Construction
     - title: "Pilotage par la donnée"
-      year: "Intervention 3"
-      desc: "Pilotage de la performance énergétique par la donnée"
+      year: ""
+      desc: "Pilotage de la performance énergétique par la donnée avec nos solutions BACS intelligentes"
       image: assets/img/timeline/3.jpg
-      alt:
-  end: "Rejoignez <br> l'aventure!"
+      alt: Pilotage
+  end: "Intéressés?<br>Parlons-en<br>ensemble!"
 
 about:
-  title: "À propos de nous"
-  text: "Notre expertise"
-  body: "Foorier est une offre spécialisée dans le pilotage énergétique intelligent des bâtiments tertiaires. Notre mission : transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)."
+  title: "Notre expertise"
+  text: "Foorier au service de votre performance énergétique"
+  body: "Foorier est une offre spécialisée dans le pilotage énergétique intelligent des bâtiments tertiaires. Notre mission est de transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)."
   section: about
 
 clients:
   section: clients
   max-height: 100px
-  horizontal-scrolling: "" #"yes/no"
+  horizontal-scrolling: ""
   list:
-    - title: "Client 1"
-      url: https://github.com/raviriley/agency-jekyll-theme
-      logo: assets/img/clients/creative-market.jpg
-    - title: "Client 2"
-      url: https://github.com/raviriley/agency-jekyll-theme
-      logo: assets/img/clients/designmodo.jpg
+    - title: "Nos références"
+      url: "#"
+      logo: assets/img/clients/placeholder.jpg
 
 team:
-  title: "Retours
+  title: "Retours d'expérience"
+  text: ""
+  subtext: 
+  section: team
+  people:
+    - name: "Responsable Green Building"
+      role: "France"
+      image: assets/img/team/default.jpg
+      quote: "Enfin un cabinet capable d'appréhender la performance énergétique dans sa globalité, physique, contractuelle, économique, réglementaire et numérique. Avant de vous rencontrer, j'aurais dû assembler les prestations de 3 ou 4 entreprises qui me rendaient des résultats incompréhensibles et contradictoires"
+
+contact:
+  title: "Contactez-nous"
+  text: "Parlons-en ensemble"
+  section: contact
+  name: "Nom*"
+  name-validation: "Merci de renseigner votre nom."
+  email: "Email*"
+  email-validation: "Merci de renseigner votre email."
+  phone: "Téléphone*"
+  phone-validation: "Merci de renseigner votre téléphone."
+  message: "Message*"
+  message-validation: "Merci d'écrire un message."
+  subject: "Contact Foorier"
+  submit: "Envoyer"
+
+footer:
+  legal: "Mentions légales"
+  social:
+    - url: https://linkedin.com/company/foorier
+      icon: "fab fa-linkedin-in"
