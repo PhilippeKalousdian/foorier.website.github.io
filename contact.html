@@ -1,0 +1,50 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="page-heading">{{ page.title }}</h1>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form id="contactForm" action="{{ site.data.contact.form_action }}" method="POST">
+          <div class="form-group mb-3">
+            <label for="name">{{ site.data.contact.form.name.label }}{% if site.data.contact.form.name.required %}<span class="text-danger">*</span>{% endif %}</label>
+            <input type="text" class="form-control" id="name" name="name" {% if site.data.contact.form.name.required %}required{% endif %}>
+          </div>
+          
+          <div class="form-group mb-3">
+            <label for="company">{{ site.data.contact.form.company.label }}{% if site.data.contact.form.company.required %}<span class="text-danger">*</span>{% endif %}</label>
+            <input type="text" class="form-control" id="company" name="company" {% if site.data.contact.form.company.required %}required{% endif %}>
+          </div>
+          
+          <div class="form-group mb-3">
+            <label for="email">{{ site.data.contact.form.email.label }}{% if site.data.contact.form.email.required %}<span class="text-danger">*</span>{% endif %}</label>
+            <input type="email" class="form-control" id="email" name="email" {% if site.data.contact.form.email.required %}required{% endif %}>
+          </div>
+          
+          <div class="form-group mb-3">
+            <label for="postal">{{ site.data.contact.form.postal.label }}</label>
+            <input type="text" class="form-control" id="postal" name="postal">
+          </div>
+          
+          <div class="form-group mb-3">
+            <label for="message">{{ site.data.contact.form.message.label }}</label>
+            <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+          </div>
+          
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-xl">{{ site.data.contact.form.button }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
