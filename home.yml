@@ -1,0 +1,59 @@
+# Header / Hero section
+header:
+  title: "Foorier est une offre spécialisée dans le pilotage énergétique intelligent des bâtiments tertiaires"
+  image: img/header-bg.jpg
+  logo: img/logo.png
+
+# Mission section
+mission:
+  title: "Notre mission"
+  text: "Transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)"
+  image: img/mission.png
+
+# Value proposition / Services section
+services:
+  section: offre
+  title: "Notre offre de valeur"
+  items:
+    - title: "Coût d'investissement 3 à 5 fois moindre que les offres de GTB classiques"
+      icon: img/offre-cout.png
+    - title: "15 à 30% d'économies d'énergie"
+      icon: img/offre-economies.png
+    - title: "Mise en conformité BACS et contribution au Décret Tertiaire"
+      icon: img/offre-conformite.png
+
+# Interventions section
+interventions:
+  section: interventions
+  title: "Nos domaines d'intervention"
+  items:
+    - title: "Diagnostics de performance"
+      icon: img/intervention-diagnostic.png
+    - title: "Conception, construction et gestion d'installations ouvertes et innovantes"
+      icon: img/intervention-conception.png
+    - title: "Pilotage de la performance énergétique par la donnée"
+      icon: img/intervention-pilotage.png
+
+# Testimonials section
+testimonials:
+  section: temoignages
+  title: "Retours d'expérience"
+  image: img/testimonial-bg.png
+  items:
+    - quote: "Enfin un cabinet capable d'appréhender la performance énergétique dans sa globalité, physique, contractuelle, économique, réglementaire et numérique. Avant de vous rencontrer, j'aurais dû assembler les prestations de 3 ou 4 entreprises qui me rendaient des résultats incompréhensibles et contradictoires"
+      author: "Responsable Green Building"
+      company: "France"
+
+# CTA / Contact section
+cta:
+  title: "Intéressés ?"
+  text: "Parlons-en ensemble, contactez-nous !"
+  button: "Contact"
+  url: "/contact/"
+
+# Footer
+footer:
+  legal: "L'intelligence au cœur du bâtiment"
+  social:
+    - url: https://www.linkedin.com/company/foorier
+      icon: fab fa-linkedin-in
