@@ -1,9 +1,10 @@
-baseurl: ''
-description: L'intelligence au cœur du bâtiment
-markdown: kramdown
-plugins:
-- jekyll-feed
-- jekyll-seo-tag
-theme: jekyll-theme-cayman
 title: Foorier
-url: https://foorier.github.io
+email: contact@foorier.fr
+description: "L'intelligence au cœur du bâtiment"
+author: Foorier
+baseurl: "/foorier.website.github.io"
+url: "https://philippekalousdian.github.io"
+
+# Locale pour le français
+locale: "fr-FR"
+lang: "fr"
