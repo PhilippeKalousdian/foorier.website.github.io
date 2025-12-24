@@ -1,12 +1,24 @@
 title: Foorier
-description: "L'intelligence au cœur du bâtiment"
+email: contact@foorier.fr
+description: "L'intelligence au cœur du bâtiment - Pilotage énergétique intelligent des bâtiments tertiaires"
+author: Foorier
 baseurl: "/foorier.website.github.io"
 url: "https://philippekalousdian.github.io"
 locale: "fr-FR"
-lang: "fr"
+lang: fr
 
-# Theme settings
+# Theme
 remote_theme: raviriley/agency-jekyll-theme
+
+# Analytics (optionnel)
+analytics:
+  google: #UA-XXXXXXX-X
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
@@ -14,3 +26,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
