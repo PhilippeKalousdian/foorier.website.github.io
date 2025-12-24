@@ -1,14 +1,33 @@
 ---
-layout: default
-permalink: /clients/
+layout: page
 title: Clients
+permalink: /clients/
 ---
 
-![](/assets/images/chatgpt-image-8-oct.-2025-11_41_10-1.png)
+# Nos clients
 
-- [Promesse de valeur](https://foorier.fr/)
-- [Clients](https://foorier.fr/clients/)
-- [Expertises](https://foorier.fr/notre-equipe/)
-- [Solutions](https://foorier.fr/notre-expertise/)
-- [Nos articles ](https://foorier.fr/nos-articles-blog/)
-- [Contact](https://foorier.fr/contact/)
+Nous accompagnons une grande diversité d'acteurs du secteur tertiaire :
+
+## Propriétaires de bâtiments tertiaires (publics & privés)
+
+Optimisation de la performance énergétique en respectant les contraintes réglementaires.
+
+## Entreprises en réseau, multi-sites
+
+Solutions harmonisées et pilotables centralement pour vos différents sites.
+
+## Collectivités locales, EPCI
+
+Accompagnement des acteurs publics dans la gestion énergétique de leur patrimoine.
+
+## Gestionnaires de parcs immobiliers
+
+Optimisation de la gestion de vos actifs avec nos solutions de pilotage intelligent.
+
+## Exploitants techniques et bureaux d'études
+
+Collaboration avec les professionnels pour des solutions innovantes et performantes.
+
+---
+
+[Contactez-nous](/contact/) pour discuter de votre projet.

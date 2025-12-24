@@ -1,0 +1,115 @@
+header:
+  title: L'intelligence au cœur du bâtiment
+  text: Foorier est une offre spécialisée dans le pilotage énergétique intelligent des bâtiments tertiaires
+  button: En savoir plus
+  buttonlink: "#services"
+
+services:
+  title: "Notre offre de valeur"
+  text: ""
+  section: services
+  list:
+    - title: "Coût optimisé"
+      desc: "Coût d'investissement 3 à 5 fois moindre que les offres de GTB classiques"
+      icon: fas fa-euro-sign
+    - title: "Économies d'énergie"
+      desc: "15 à 30% d'économies d'énergie"
+      icon: fas fa-bolt
+    - title: "Conformité BACS"
+      desc: "Mise en conformité BACS et contribution au Décret Tertiaire"
+      icon: fas fa-check-circle
+
+portfolio:
+  title: "Nos domaines d'intervention"
+  text: ""
+  section: portfolio
+  closebutton: "Fermer"
+
+timeline:
+  title: "Notre mission"
+  text: "Transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)"
+  section: timeline
+  events:
+    - title: "Diagnostics de performance"
+      year: ""
+      desc: "Analyse approfondie de vos installations existantes pour identifier les opportunités d'optimisation énergétique et de mise en conformité réglementaire"
+      image: assets/img/timeline/1.jpg
+      alt: Diagnostic
+    - title: "Conception, construction et gestion"
+      year: ""
+      desc: "Conception, construction et gestion d'installations ouvertes et innovantes, avec des technologies scalables, résilientes et sécurisées"
+      image: assets/img/timeline/2.jpg
+      alt: Construction
+    - title: "Pilotage par la donnée"
+      year: ""
+      desc: "Pilotage de la performance énergétique par la donnée avec nos solutions BACS intelligentes et notre architecture IoT moderne"
+      image: assets/img/timeline/3.jpg
+      alt: Pilotage
+  end: "Intéressés?<br>Parlons-en<br>ensemble!"
+
+about:
+  title: "Retours d'expérience"
+  text: ""
+  section: about
+  body: |
+    > « Enfin un cabinet capable d'appréhender la performance énergétique dans sa globalité, physique, contractuelle, économique, réglementaire et numérique. Avant de vous rencontrer, j'aurais dû assembler les prestations de 3 ou 4 entreprises qui me rendaient des résultats incompréhensibles et contradictoires »
+    
+    **Responsable Green Building, France**
+
+clients:
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: ""
+  list:
+    - title: "Propriétaires tertiaires"
+      url: /clients/
+      logo: assets/img/clients/1.jpg
+    - title: "Entreprises multi-sites"
+      url: /clients/
+      logo: assets/img/clients/2.jpg
+    - title: "Collectivités"
+      url: /clients/
+      logo: assets/img/clients/3.jpg
+
+team:
+  title: "Nos expertises"
+  text: "Une équipe pluridisciplinaire"
+  section: team
+  people:
+    - name: "Réglementation"
+      role: "Expertise technique"
+      image: assets/img/team/1.jpg
+      desc: "Maîtrise de la réglementation, de son esprit, donc de son application"
+    - name: "Bâtiment"
+      role: "Expertise métier"
+      image: assets/img/team/2.jpg
+      desc: "Maîtrise des bâtiments : décennale, transfert construction-gestion"
+    - name: "Installations CVC"
+      role: "Expertise énergétique"
+      image: assets/img/team/3.jpg
+      desc: "Maîtrise des installations énergétiques CVC et de leurs technologies"
+    - name: "IoT"
+      role: "Expertise digitale"
+      image: assets/img/team/4.jpg
+      desc: "Maîtrise de l'architecture des systèmes IoT de l'Internet"
+
+contact:
+  title: "Contactez-nous"
+  text: "Parlons-en ensemble"
+  section: contact
+  name: "Nom*"
+  name-validation: "Merci de renseigner votre nom."
+  email: "E-mail*"
+  email-validation: "Merci de renseigner votre email."
+  phone: "Code postal"
+  phone-validation: ""
+  message: "Message*"
+  message-validation: "Merci d'écrire un message."
+  subject: "Contact depuis le site Foorier"
+  submit: "Contactez-nous"
+
+footer:
+  legal: "Mentions légales"
+  social:
+    - url: https://linkedin.com
+      icon: "fab fa-linkedin-in"
