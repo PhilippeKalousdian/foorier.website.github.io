@@ -2,8 +2,8 @@ title: Foorier
 email: contact@foorier.fr
 description: "L'intelligence au cœur du bâtiment - Pilotage énergétique intelligent des bâtiments tertiaires"
 author: Foorier
-url: "https://PhilippeKalousdian.github.io"
-baseurl: "foorier.website.github.io"
+baseurl: "/foorier.website.github.io"  # Nom du repo
+url: "https://philippekalousdian.github.io"
 
 # Social links
 twitter_username: 
