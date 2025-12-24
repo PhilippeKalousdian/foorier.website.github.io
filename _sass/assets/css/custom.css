@@ -1,0 +1,46 @@
+/* Couleurs personnalisées Foorier */
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --accent: #27ae60;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+}
+
+#mainNav {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
+}
+```
+
+## 5. Images à préparer
+
+Place tes images dans ces dossiers :
+```
+assets/img/
+├── header-bg.jpg         # Image d'en-tête (1920x1080)
+├── about/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── 3.jpg
+├── portfolio/
+│   ├── 01-thumbnail.jpg  # 400x300
+│   ├── 01-full.jpg       # 1200x800
+│   └── ...
+├── team/
+│   └── 1.jpg             # 400x400 carré
+└── clients/
+    └── client1.jpg       # Logo, fond transparent
