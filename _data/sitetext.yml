@@ -1,0 +1,83 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "fr-FR"  # pour le français
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# -----------------
+# Texte du site en français
+# -----------------
+header:
+  title: L'intelligence au cœur du bâtiment
+  text: Pilotage énergétique intelligent des bâtiments tertiaires
+  button: En savoir plus
+  buttonlink: "#services"
+
+services:
+  title: "Notre offre de valeur"
+  text: "Des solutions innovantes et économiques"
+  section: services
+  list:
+    - title: "Coût optimisé"
+      desc: "Coût d'investissement 3 à 5 fois moindre que les offres de GTB classiques"
+      icon: fas fa-euro-sign #find more at https://fontawesome.com/icons
+    - title: "Économies d'énergie"
+      desc: "15 à 30% d'économies d'énergie garanties"
+      icon: fas fa-bolt
+    - title: "Conformité BACS"
+      desc: "Mise en conformité BACS et contribution au Décret Tertiaire"
+      icon: fas fa-check-circle
+
+portfolio:
+  title: "Nos domaines d'intervention"
+  text: "Expertise complète en performance énergétique"
+  section: portfolio
+  closebutton: "Fermer"
+
+timeline:
+  title: "Notre mission"
+  text: "Transformer les contraintes en opportunités"
+  section: timeline
+  # left is the default
+  #start_align: "left"
+  events:
+    - title: "Diagnostics de performance"
+      year: "Intervention 1"
+      desc: "Analyse approfondie de vos installations pour identifier les opportunités d'optimisation"
+      image: assets/img/timeline/1.jpg
+      alt:
+    - title: "Conception et construction"
+      year: "Intervention 2"
+      desc: "Conception, construction et gestion d'installations ouvertes et innovantes"
+      image: assets/img/timeline/2.jpg
+      alt:
+    - title: "Pilotage par la donnée"
+      year: "Intervention 3"
+      desc: "Pilotage de la performance énergétique par la donnée"
+      image: assets/img/timeline/3.jpg
+      alt:
+  end: "Rejoignez <br> l'aventure!"
+
+about:
+  title: "À propos de nous"
+  text: "Notre expertise"
+  body: "Foorier est une offre spécialisée dans le pilotage énergétique intelligent des bâtiments tertiaires. Notre mission : transformer les contraintes réglementaires en opportunités d'efficacité et de performance durable grâce aux Building Automation & Control Systems (BACS)."
+  section: about
+
+clients:
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: "" #"yes/no"
+  list:
+    - title: "Client 1"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/creative-market.jpg
+    - title: "Client 2"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/designmodo.jpg
+
+team:
+  title: "Retours
