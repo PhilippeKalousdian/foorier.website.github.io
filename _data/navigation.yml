@@ -1,0 +1,17 @@
+- title: "Promesse de valeur"
+  url: "/"
+
+- title: "Clients"
+  url: "/clients/"
+
+- title: "Expertises"
+  url: "/expertises/"
+
+- title: "Solutions"
+  url: "/solutions/"
+
+- title: "Nos articles"
+  url: "/blog/"
+
+- title: "Contact"
+  url: "/contact/"

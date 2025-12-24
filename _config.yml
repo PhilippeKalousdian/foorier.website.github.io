@@ -1,0 +1,55 @@
+# Site settings
+title: Foorier
+email: contact@foorier.fr
+description: "L'intelligence au cœur du bâtiment"
+baseurl: "/foorier.website.github.io" # the subpath of your site
+url: "https://philippekalousdian.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: # foorier
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: # UA-XXXXXXXX-X
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/company/foorier
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Foorier"
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Pagination
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md

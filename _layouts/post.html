@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<article class="blog-post">
+  <header class="blog-post-header">
+    <div class="container">
+      {% if page.image %}
+      <img class="img-fluid blog-post-featured-image" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+      {% endif %}
+    </div>
+  </header>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h1 class="blog-post-title">{{ page.title }}</h1>
+          
+          <div class="blog-post-meta mb-4">
+            <span class="date">
+              <i class="far fa-calendar-alt"></i> {{ page.date | date: "%d/%m/%Y" }}
+            </span>
+            {% if page.author %}
+            <span class="author ms-3">
+              <i class="far fa-user"></i> {{ page.author }}
+            </span>
+            {% endif %}
+            {% if page.categories %}
+            <span class="categories ms-3">
+              <i class="far fa-folder"></i>
+              {% for category in page.categories %}
+                {{ category }}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </span>
+            {% endif %}
+          </div>
+
+          <div class="blog-post-content">
+            {{ content }}
+          </div>
+
+          <hr class="my-5">
+
+          <!-- Navigation entre articles -->
+          <div class="blog-post-navigation">
+            <div class="row">
+              <div class="col-6">
+                {% if page.previous.url %}
+                <a href="{{ page.previous.url | prepend: site.baseurl }}" class="btn btn-outline-primary">
+                  <i class="fas fa-arrow-left"></i> Article précédent
+                </a>
+                {% endif %}
+              </div>
+              <div class="col-6 text-end">
+                {% if page.next.url %}
+                <a href="{{ page.next.url | prepend: site.baseurl }}" class="btn btn-outline-primary">
+                  Article suivant <i class="fas fa-arrow-right"></i>
+                </a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-5">
+            <a href="{{ site.baseurl }}/blog/" class="btn btn-primary">
+              <i class="fas fa-th-list"></i> Tous les articles
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
