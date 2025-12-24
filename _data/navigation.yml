@@ -1,13 +1,13 @@
-nav:
-  - title: "Accueil"
-    section: services
-  - title: "Nos valeurs"
-    section: portfolio
-  - title: "Notre mission"
-    section: about
-  - title: "Domaines"
-    section: team
-  - title: "Clients"
-    section: clients
-  - title: "Contact"
-    section: contact
+items:
+- title: Promesse de valeur
+  url: https://foorier.fr/
+- title: Clients
+  url: https://foorier.fr/clients/
+- title: Expertises
+  url: https://foorier.fr/notre-equipe/
+- title: Solutions
+  url: https://foorier.fr/notre-expertise/
+- title: Nos articles
+  url: https://foorier.fr/nos-articles-blog/
+- title: Contact
+  url: https://foorier.fr/contact/

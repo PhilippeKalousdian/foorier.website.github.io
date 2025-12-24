@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /index/
-title: Foorier – L'intelligence au cœur du bâtiment
+permalink: /notre-equipe/
+title: Expertises
 ---
 
 ![](/assets/images/chatgpt-image-8-oct.-2025-11_41_10-1.png)

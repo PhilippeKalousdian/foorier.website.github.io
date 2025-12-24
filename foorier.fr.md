@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index/
+permalink: /foorier.fr/
 title: Foorier – L'intelligence au cœur du bâtiment
 ---
 

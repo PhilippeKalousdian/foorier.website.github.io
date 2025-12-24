@@ -1,23 +1,9 @@
-title: Foorier
-email: contact@foorier.fr
-description: "L'intelligence au cœur du bâtiment - Pilotage énergétique intelligent des bâtiments tertiaires"
-author: Foorier
-baseurl: "/foorier.website.github.io"  # Nom du repo
-url: "https://philippekalousdian.github.io"
-
-# Social links
-twitter_username: 
-github_username: foorier
-facebook_username: 
-linkedin_username: foorier
-
-# Build settings
+baseurl: ''
+description: L'intelligence au cœur du bâtiment
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  
-# Collections (si tu veux un blog)
-collections:
-  portfolio:
-    output: true
-    permalink: /solutions/:path/
+- jekyll-feed
+- jekyll-seo-tag
+theme: jekyll-theme-cayman
+title: Foorier
+url: https://foorier.github.io
